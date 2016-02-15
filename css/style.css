@@ -33,8 +33,9 @@ body {
     text-align: center;
     margin-right: 40px;
     }
-.button:active {
+.button:hover {
     background-color: #3f3f3f;
+    cursor: pointer;
 }
 .sidebar {
     float: left;
@@ -58,8 +59,12 @@ body {
     line-height: 40px;
     border: 1px #c8c8c8 solid;
 }
-.sidebar_button:active {
+li:hover {
     background-color: #f9f9f9;
+    cursor: pointer;
+}
+li:hover a {
+padding-left: 40px;
 }
 .photo {
     margin-top: 40px;
@@ -105,8 +110,9 @@ body {
     text-align: center;
     margin-right: 40px;
     }
-.button3:active {
+.button3:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .copyright {
     display: inline-block;
